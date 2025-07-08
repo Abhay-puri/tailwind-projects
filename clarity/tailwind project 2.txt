@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="./src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontawesome.css">
+  <link rel="stylesheet" href="css/all.css">
+
+</head>
+<style>
+  /* *{
+    border:1px solid red;
+  } */
+</style>
+
+<body>
+  <div class="p-3 mx-auto max-lg:w-250 border-1 max-md:w-200 max-sm:w-150">
+    <nav class="flex justify-between items-center">
+      <img src="images/logo.svg" alt="" class="max-lg:mx-auto w-50">
+      <ul class="flex gap-10 capitalize text-gray-500 hover:text-black transition-all duration-500 max-lg:hidden">
+        <li><a href="" class="first:text-black">home<i class="fa-solid fa-angle-down ml-2"></i></a></li>
+        <li><a href="">pages<i class="fa-solid fa-angle-down ml-2"></i></a></li>
+        <li><a href="">blogs<i class="fa-solid fa-angle-down ml-2"></i></a></li>
+        <li><a href="">support<i class="fa-solid fa-angle-down ml-2"></i></a></li>
+      </ul>
+      <div class="flex gap-12 items-center max-lg:hidden">
+        <ul class="flex gap-6 text-gray-500">
+          <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+        </ul>
+        <a href="" class="bg-gray-200 text-gray-500 w-10 h-10 leading-10 text-center rounded-full"><i
+            class="fa-solid fa-magnifying-glass"></i></a>
+        <button class="bg-black text-white capitalize py-2 px-7 font-medium rounded-md cursor-pointer list">subscribe</button>
+      </div>
+      <!-- <i class="fa-solid fa-bars block max-xl:hidden text-3xl text-black"></i> -->
+    </nav>
+  </div>
+  <!-- End Nav -->
+  <div class="bg-gray-100 pt-10 mb-15">
+    <div class="p-3 mx-auto">
+      <div class=" flex flex-col gap-10 bg-white p-4 max-lg:w-250 gap-y-0 border-1 lg:flex-row max-md:w-200 max-sm:w-150">
+        <a href=""><img src="images/hero-01.png" alt="" class="max-lg:w-200 max-md:w-150"></a>
+
+        <div class="w-150 pt-10 border-1 max-lg:w-240 max-md:w-180 max-sm:w-140">
+          <a href=""><span
+              class="inline-flex font-medium text-sm py-1 px-3 rounded-full mb-4 text-purple-800 bg-purple-100 capitalize max">lifestyle</span></a>
+          <a href="">
+            <h1 class="font-bold text-dark mb-4 text-3xl max-lg:text-2xl"> Begin here to obtain a brief summary encompassing all the
+              essential</h1>
+          </a>
+          <p class="mb-5 max-lg:text-xl text-gray-500 font-semibold">This comprehensive post serves as your cheat-sheet to swiftly familiarize yourself with Ghost.
+            Packed with
+            crucial...</p>
+          <div class="flex gap-7 text-gray-500">
+            <div class="flex gap-3">
+              <img src="images/user-01.png" alt="" class="w-6">
+              <span class="capitalize text-sm max-lg:font-semibold">adrio devid</span>
+            </div>
+            <span class="max-lg:font-semibold">Sep 10, 2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 p-2 flex gap-10 max-xl:flex-col">
+        <div class="flex gap-5 bg-white p-8 rounded-xl max-xl:w-150  border-1">
+          <div><img src="images/hero-02.png" alt=""></div>
+          <div class="w-60 pt-3">
+            <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+            <a href="">
+              <h2 class="text-xl font-semibold mt-4 mb-3">14 innovative architectual desgin to create a vast interior
+                space
+            </a></h2>
+
+            <a href=""class="capitalize text-gray-500 text-sm">by adrio devid</a>
+            <span class="ml-3 capitalize text-gray-500 text-sm">sep 10,2025</span>
+          </div>
+        </div>
+        <div class="flex gap-5 bg-white p-8 rounded-xl max-xl:w-150">
+          <div><img src="images/hero-03.png" alt=""></div>
+          <div class="w-60 pt-3">
+            <a href=""><span class="capitalize text-green-600 bg-green-100 py-1 px-3 rounded-full">travel</a></span>
+            <a href="">
+              <h2 class="text-xl font-semibold mt-4 mb-3">14 innovative architectual desgin to create a vast interior
+                space
+            </a></h2>
+            <a href="" class="capitalize text-gray-500 text-sm">by adrio devid</a>
+            <span class="ml-3 capitalize text-gray-500 text-sm">sep 10,2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Banner -->
+  <div class="mx-auto mb-10">
+    <h2 class="text-center capitalize font-bold text-4xl mb-3">browse by category</h2>
+    <p class="text-center capitalize">select a category to see more related content</p>
+    <ul class="flex justify-center gap-4 capitalize font-medium mt-10">
+      <li><a href="" class="first:bg-black text-white px-5 py-2 rounded-full">all(20)</a></li>
+      <li><a href="" class="bg-gray-100 px-5 py-2 rounded-full hover:bg-black hover:text-white transition-all duration-500">lifestyle(03)</a></li>
+      <li><a href="" class="bg-gray-100 px-5 py-2 rounded-full hover:bg-black hover:text-white transition-all duration-500">technology(02)</a></li>
+      <li><a href="" class="bg-gray-100 px-5 py-2 rounded-full hover:bg-black hover:text-white transition-all duration-500">travel(05)</a></li>
+      <li><a href="" class="bg-gray-100 px-5 py-2 rounded-full hover:bg-black hover:text-white transition-all duration-500">health(09)</a></li>
+      <li><a href="" class="bg-gray-100 px-5 py-2 rounded-full hover:bg-black hover:text-white transition-all duration-500">culture(01)</a></li>
+    </ul>
+  </div>
+  <div class="mx-auto mb-20">
+    <div class="flex flex-wrap justify-between gap-y-10">
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-01.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-02.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-03.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-04.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-05.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <div class="w-95">
+        <div>
+          <a href=""><img src="images/blog-06.png" alt="" class="mb-5 w-full transform transition-transform hover:scale-105"></a>
+        </div>
+        <div>
+          <h2 class="capitalize font-bold text-xl mb-3"><a href="">stylish kitchen and dinning room with functional
+              ideas</a></h2>
+          <p class="text-gray-500 font-normal mb-5">Lorem ipsum is simply dummy text of the print and typesetting
+            industry...
+          </p>
+        </div>
+        <div class="flex justify-between">
+          <div class="flex gap-3 capitalize text-gray-500">
+            <img src="images/user-01.png" alt="" class="w-6">
+            <a href="">adrio devid</a>
+          </div>
+          <span class="capitalize text-gray-500">sep 10 2025</span>
+          <a href=""><span class="capitalize text-blue-600 bg-blue-100 py-1 px-3 rounded-full">technology</a></span>
+        </div>
+      </div>
+      <button class="font-semibold capitalize mt-10 py-3 px-8 rounded-md mx-auto border-1 cursor-pointer hover:bg-black hover:text-white transition-all duration-500">browse all posts</button>
+    </div>
+  </div>
+  <!-- End Blog -->
+  <div class="mx-auto flex justify-between items-center">
+    <h2 class="capitalize font-semibold text-3xl">top authors</h2>
+    <div class="flex gap-3">
+      <span class="capitalize font-normal">all authors</span>
+      <div><i class="fa-solid fa-arrow-right -rotate-50"></i></div>
+    </div>
+  </div>
+  <div class="mx-auto mt-8 flex justify-between border-t-1 border-gray-300 mb-20">
+    <div class="flex items-start border-1 border-gray-300 py-7 pl-5  gap-8 rounded-xl mt-10 bg-gray-100 w-95 hover:-translate-y-2 transition-all hover:bg-white">
+      <div><a href=""><img src="images/user-01.png" alt="" class="w-20"></a></div>
+      <div>
+        <h2 class="uppercase font-semibold text-lg">adrio devid</h2>
+        <p class="capitalize mb-1">director of operations</p>
+        <span>03 published posts</span>
+      </div>
+    </div>
+    <div class="flex items-start border-1 border-gray-300 py-7 pl-5 gap-8 rounded-xl mt-10 bg-gray-100 w-95 hover:-translate-y-2 transition-all hover:bg-white">
+      <div><a href=""><img src="images/user-02.png" alt="" class="w-20"></a></div>
+      <div>
+        <h2 class="uppercase font-semibold text-lg">adrio devid</h2>
+        <p class="capitalize mb-1">director of operations</p>
+        <span>03 published posts</span>
+      </div>
+    </div>
+    <div class="flex items-start border-1 border-gray-300 py-7 pl-5 gap-8 rounded-xl mt-10 bg-gray-100 w-95 hover:-translate-y-2 transition-all hover:bg-white">
+      <div><a href=""><img src="images/user-03.png" alt="" class="w-20"></a></div>
+      <div>
+        <h2 class="uppercase font-semibold text-lg">adrio devid</h2>
+        <p class="capitalize mb-1">director of operations</p>
+        <span>03 published posts</span>
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonial -->
+  <div class="bg-gray-100 mx-auto py-15 ">
+    <div class="mx-auto flex justify-around items-center bg-white px-4 py-12 rounded-[10px]">
+      <div class="w-100">
+        <h2 class="font-semibold capitalize text-2xl mb-3">subscribe to newsletter</h2>
+        <p class="text-gray-500 text-md">Provide your email to get email notification when we launch new products or
+          publish new articles</p>
+      </div>
+      <div class="flex gap-5">
+        <form class=" border-1 border-gray-300 rounded-md w-100 p-3">
+          <input type="text" class="email" placeholder="Enter your email">
+        </form>
+        <div><button
+            class="capitalize bg-black text-white font-semibold py-3.5 px-7 rounded-md poi cursor-pointer">subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Form -->
+  <div class="mx-auto mt-10 flex justify-between pb-5">
+    <span class="text-gray-500">© 2025 Clarity. All rights reserved</span>
+    <ul class="flex gap-5 capitalize text-gray-500">
+      <li><a href="">privacy</a></li>
+      <li><a href="">terms</a></li>
+      <li><a href="">contact</a></li>
+      <li><a href="">contribute</a></li>
+    </ul>
+    <div class="flex gap-7">
+      <span class="capitalize text-md font-semibold">follow us:</span>
+      <ul class="flex gap-5 text-gray-500">
+        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Footer -->
+</body>
+
+</html>
